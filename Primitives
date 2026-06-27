@@ -1,0 +1,11 @@
+public class Primitives {
+   public static void main(String[] args) {
+       int roolno = 64;
+       char letter = 'a';
+       float marks = 98.67f;
+       double largeDecimalNumbers = 4563435.53533;
+       long largeIntegerNumbers = 34435969359349L;
+       boolean check = false;
+
+    }
+}
