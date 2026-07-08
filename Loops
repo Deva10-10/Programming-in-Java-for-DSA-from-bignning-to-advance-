@@ -25,27 +25,3 @@ public class Loops{
 
     }
 }
-import java.util.Scanner;
-
-public class TemperatureControl {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter the temperature (°C): ");
-        double temperature = sc.nextDouble();
-
-        if (temperature < 0) {
-            System.out.println("Freezing! Stay warm.");
-        } else if (temperature >= 0 && temperature < 20) {
-            System.out.println("Cold weather. Wear a jacket.");
-        } else if (temperature >= 20 && temperature < 30) {
-            System.out.println("Pleasant weather.");
-        } else if (temperature >= 30 && temperature < 40) {
-            System.out.println("Hot weather. Drink plenty of water.");
-        } else {
-            System.out.println("Very Hot! Avoid going outside if possible.");
-        }
-
-        sc.close();
-    }
-}
