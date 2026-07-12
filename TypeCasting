@@ -23,5 +23,13 @@ public class TypeCasting {
 //        int number = 'A';
 //        System.out.println(number); conversts into ASCI code`
 //
+public class Main {
+    public static void main(String[] args) {
+        int num = 25;
+        double value = num;
 
+        System.out.println("Integer: " + num);
+        System.out.println("Double: " + value);
+    }
+}
 
