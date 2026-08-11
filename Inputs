@@ -17,7 +17,7 @@ public class Inputs {
 //        float marks = input.nextFloat();
 //        System.out.println(marks);
 
-                .print("Enter name: ");
+               System.out.print("Enter name: ");
                 String name = input.nextLine();
 
                 System.out.print("Enter age: ");
