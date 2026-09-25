@@ -1,0 +1,25 @@
+import java.util.Scanner;
+ public class Swithch {
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        String fruit = in.next();
+
+        switch (fruit){
+            case "Mango":
+                System.out.println("King of fruits: ");
+                break;
+            case "Apple":
+                System.out.println("A sweet red fruits");
+                break;
+            case "Orang":
+                 System.out.println("Orange fruits are unique:");
+                 break;
+            case "Grape":
+                 System.out.println("It is a small fruits");
+                 break;
+            default:
+                System.out.println("Please enter a valid fruits");
+
+        }
+    }
+}
